@@ -12,9 +12,11 @@ public class HelloController {
         return "Hello " + name;
     }
 
-    @GetMapping("/")
-    public String root() {
-        return "Hi, This page is not modified yet.";
-    }
+//    @GetMapping("/")
+//    public String root() {
+//        return "Hi, This page is not modified yet.";
+//    }
 
+    @GetMapping("/")
+    public String root() { return "Hi, This page is not modified yet, but this is a little revised.";}
 }
